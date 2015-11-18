@@ -1,0 +1,471 @@
+/* background vid */
+body{
+	-webkit-touch-callout: none;
+	    -webkit-user-select: none;
+	    -khtml-user-select: none;
+	    -moz-user-select: none;
+	    -ms-user-select: none;
+	    user-select: none;
+}
+
+video#bgvid {
+position: fixed; right: 0; bottom: 0;
+min-width: 100%; min-height: 100%;
+width: auto; height: auto; z-index: -100;
+background: url(polina.jpg) no-repeat;
+background-size: cover;
+}
+
+video#bgvid { transition: 1s opacity; }
+.stopfade { opacity: 0.2; }
+
+#vidpause {
+	max-width: 3%;
+	cursor: pointer;
+	user-drag: none; 
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	position:absolute;
+		top: 94%;
+}
+
+#vidpause:hover {
+	
+	opacity:0.5;
+}
+
+
+.infobutton {
+	max-width: 3%;
+cursor: pointer;
+user-drag: none; 
+-moz-user-select: none;
+-webkit-user-drag: none;
+position:absolute;
+	top: 94%;
+	left: 96%;
+}
+
+.infobutton:hover {
+	
+	opacity:0.5;
+}
+
+.feedbutton {
+	max-width: 3%;
+cursor: pointer;
+user-drag: none; 
+-moz-user-select: none;
+-webkit-user-drag: none;
+position:absolute;
+	top: 94%;
+	left: 4%;
+			
+}
+
+.feedbutton:hover {
+	
+	opacity:0.5;
+}
+
+
+/*.intro {
+	background-color: white;
+	opacity: 0.2;
+	padding-top: 8px;
+	
+}*/
+/*  */
+
+.canvascontainer {
+	max-height: 100%;
+	max-width: 100%;
+	
+	
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.icon {
+
+	width: 100%;
+	user-drag: none; 
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	
+}
+
+
+.slider {
+	max-width: 200px;
+	padding-left:60px;
+	padding-top: 20px	
+	
+}
+
+
+.wrapper {
+	max-height: 1060px;
+	overflow: hidden;
+	
+}  
+
+.listcontainer {
+	height: 780px;
+	overflow: scroll;
+	padding: 0px;
+	z-index: 2;
+}
+
+
+.low-button {
+
+max-width: 30px;
+padding-right:auto;
+margin-top: 10px;
+cursor: pointer;
+user-drag: none; 
+-moz-user-select: none;
+-webkit-user-drag: none;
+
+
+
+}
+
+.top-button {
+
+min-width: 25px;
+max-width: 1%;
+padding-left:7%;
+cursor: pointer;
+user-drag: none; 
+-moz-user-select: none;
+-webkit-user-drag: none;
+
+
+
+}
+
+
+
+.instruction {
+	font: 14px/1.5em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: white;
+	margin-top: 12px;
+	text-align: left;
+}
+
+.instruction2 {
+	font: italic 12px/1.5em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: lightgrey;
+	text-align: left;
+	opacity: 0.4;
+	
+}
+
+
+.list-title {
+	font: 14px/1.5em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: white;
+	text-align: center;
+
+}
+
+
+li {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/* landing page */
+
+p {
+	font: 13px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+
+}
+
+
+body {
+	background-color: black;
+}
+
+.home {
+	margin-top: 125px;
+}
+
+
+.logo {
+	max-width: 70%;
+	
+	padding-top: 10%;
+	padding-right: 15%;
+	user-drag: none; 
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	padding-left: 15%;
+}
+
+.intro {
+	text-align: center;
+	color: white;
+}
+
+.go {
+	
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+		
+}
+
+.go:hover {
+	
+	opacity:0.5;
+}
+
+.smalltitle {
+	user-drag: none; 
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	position:fixed;
+	max-width: 10%;
+	min-width: 200px;
+	padding-top: 5px;
+	-top: 10px;
+}
+
+
+.load {
+	background-color: black;
+	background-image: url(../img/load2.gif);
+	background-image: no repeat;
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-size: 200px 200px;
+	z-index: 1000;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+
+.printnote {
+	
+	top: 30%;
+	left: 50%;
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	background-color: #000000;
+	
+	
+	display: none;
+	color: #ffffff;
+	opacity: 0.85;
+}
+
+
+.printnotetext {
+margin-left: 20px;
+margin-right: 20px;
+margin-top:  20px;
+	font-size: 18px;
+}
+
+.yesno {
+	
+	background-color: white;
+	
+	padding-top: 3px;
+	padding-left: 3px;
+	padding-bottom: 3px;
+	padding-right: 3px;
+	margin-left: 15px;
+	cursor: pointer; cursor: hand;
+	color: #ff0505;shape-rendering
+}
+
+.yesno2 {
+	
+	margin-left: 100px;
+
+}
+
+
+.printnote2 {
+	
+	top: 30%;
+	left: 50%;
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	background-color: #000000;
+	
+	
+	display: none;
+	color: #ffffff;
+	opacity: 0.85;
+}
+
+.printnote3 {
+	
+	top: 30%;
+	left: 50%;
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	background-color: #000000;
+	
+	
+	display: none;
+	color: #ffffff;
+	opacity: 0.85;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ABOUT PAGE */
+
+
+ #abouttext2 {
+    width: 15%;
+	text-align: left;
+}
+
+
+.abouttext {
+	color: white;
+	text-align: left;
+	margin-right: 10%;
+	
+}
+
+.infopage {
+	
+	margin-top: 10%;
+}
+
+.homebutton {
+	max-width: 3%;
+cursor: pointer;
+user-drag: none; 
+-moz-user-select: none;
+-webkit-user-drag: none;
+position:absolute;
+	top: 94%;
+	position:fixed;
+}
+
+.homebutton:hover {
+	
+	opacity:0.5;
+}
+
+.instructionbutton {
+	max-width: 3%;
+cursor: pointer;
+user-drag: none; 
+-moz-user-select: none;
+-webkit-user-drag: none;
+position:absolute;
+	top: 94%;
+	left: 96%;
+}
+
+.instructionbutton:hover {
+	
+	opacity:0.5;
+}
+
+
+.instructionbutton1 {
+	max-width: 3%;
+cursor: pointer;
+user-drag: none; 
+-moz-user-select: none;
+-webkit-user-drag: none;
+position:absolute;
+	top: 94%;
+	left: 93%;
+}
+
+.instructionbutton1:hover {
+	
+	opacity:0.5;
+}
+
+
+
+.instructiongif {
+
+position: absolute;
+top: 200px;
+	
+}
+
+
+
+/* FEED */
+
+/*.socialfeed {
+	height: 1086px;
+	overflow: scroll;
+	padding-top: 50px;*/
+	
+	
+	
+.gobigger {
+	background-color: black;
+	background-image: url(../img/gobig.png);
+	background-image: no repeat;
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-size: 200px 200px;
+	z-index: 3000;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	display: none;
+}
+
+
+.bottombuttons {
+	max-width: 800px;
+	padding-left: 25%;
+}
+
+.toppp {
+	max-width: 800px;
+		padding-left: 25%;
+}
+
+
+
+
+

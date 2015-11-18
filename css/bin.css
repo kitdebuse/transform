@@ -1,0 +1,51 @@
+
+/* Remove LEFT Buttons */
+
+.removel1 {
+
+	position: absolute;
+	top: 210px;
+	left: 210px;
+	cursor: pointer;
+	
+}
+
+.removel2 {
+
+	position: absolute;
+	top: 465px;
+	left: 210px;
+	cursor: pointer;
+	
+}
+
+.removel3 {
+
+	position: absolute;
+	top: 720px;
+	left: 210px;
+	cursor: pointer;
+	
+}
+
+
+
+/* Remove LEFT Buttons */
+
+.remover1 {
+
+	position: absolute;
+	top: 210px;
+	left: 460px;
+	cursor: pointer;
+	
+}
+
+.remover2 {
+
+	position: absolute;
+	top: 465px;
+	left: 460px;
+	cursor: pointer;
+	
+}

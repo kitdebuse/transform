@@ -1,0 +1,100 @@
+/* GENERAL */
+
+#mobileitem {
+	color: white;
+	text-align: center;
+	font-size: 8px;
+	
+}
+
+/* hidden */
+@media screen and (min-width: 1025px) and (max-width: 5000px) {
+	
+	  #mobileitem { display: none; }   /* hide it elsewhere */
+	  p {
+	  	font-size: 14px;
+	  }
+	  
+	  .abouttext {
+	  	font-size: 12px;
+	  }
+
+}
+
+.gobigger {
+	display: none;
+}
+
+
+@media only screen and (min-width : 481px) and (max-width : 1024px) {
+	
+
+	  #mobileitem { display: none; }   /* hide it elsewhere */
+	  
+	  p {
+	  	font-size: 12px;
+	  }
+	  
+	  .abouttext {
+	  	font-size: 10px;
+	  }
+	  
+	  
+	  .tohome {
+	  	display: none;
+	  }
+	  
+	  #fuckoff {
+	  	display: none;
+	  }
+	  
+	    .gobigger {
+	    	display: block;
+	    }
+	  
+	  
+
+
+
+}
+
+
+
+@media screen and (max-width : 480px) {
+
+
+	 .logo {
+	 	display: none;
+	 }
+	 
+	  .intro {
+	      display: none;
+	  }
+	  
+	  .button {
+	  	display: none;
+	  }
+	  
+	  .instructionbutton1 {
+	  	display: none;
+	  }
+	  
+	  .infobutton {
+	  	display:none;
+	  }
+ 
+	  .feedbutton {
+	  	display: none;
+	  }
+	  
+	  	  #vidpause {
+	  	  	display: none;
+	  
+	  	  }
+	  	  
+	  	  .gobigger {
+	  	  	display: block;
+	  	  }
+	  	   
+  
+ }
