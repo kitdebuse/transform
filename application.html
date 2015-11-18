@@ -16,8 +16,21 @@
 	<!-- Get the highest 1.X version of jQuery from CDN. Required for ready() function. -->
 	<script src="jquery-1.10.2.min.js"></script> 
 	
+	
+	<script>
+	   function changeScreenSize(w,h)
+	     {
+	       window.resizeTo( w,h )
+	     }
+	     
+	</script>
+	
+	
  
 <body>
+
+    <body onload="changeScreenSize(1370,960)">
+
 			 
 			 <div class="wrapper">
 			 <a class="tohome"><img src="img/smalltitle2.png" class="smalltitle t1"></a>
